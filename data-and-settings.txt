@@ -1,0 +1,5 @@
+Token=aqui va el token del bot
+ID=aqui el nombre
+IP=tcp://000.000.000.000:1883
+UserMQTT=aqui el usuario de mqtt
+KeyMQTT=y aqui la clave. ez...
