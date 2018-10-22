@@ -37,11 +37,11 @@ public class Luces {	//Sistema que maneja las luces de la asociacion
 		}
 	}
 	public void ON() {
-		byte[] payload={49};	//
+		byte[] payload={49};	//Encendemos la fuente 49 es 1 en ascii
 		enviar("Rosita",payload);
 	}
 	public void OFF() {
-		byte[] payload={48};	//Un 48 es un 0 en ascii	
+		byte[] payload={48};	//Apagamosla fuente 48 es un 0 en ascii	
 		enviar("Rosita",payload);
 	}
 	private boolean enviar(String Comando,byte[] payload) {
